@@ -1,0 +1,59 @@
+<html>
+   <head>
+ <style type="text/css">
+	p.example1{
+            border:1px dotted;
+            border-bottom-color:#009900; /* Green */
+            border-top-color:#FF0000;    /* Red */
+            border-left-color:#330000;   /* Black */
+            border-right-color:#0000CC;  /* Blue */
+         }
+         p.example2{
+            border:1px solid;
+            border-color:#009900;        /* Green */
+         }
+	tyle type="text/css">
+         table.one {border-collapse:collapse;}
+         table.two {border-collapse:separate;}
+         td.a {
+            border-style:dotted;
+            border-width:18px;
+            border-color:#000000; 
+            padding: 10px;
+         }
+         td.b {
+            border-style:solid;
+            border-width:8px;
+            border-color:#333333;
+            padding:10px;
+         }
+         a:click dis link {color:#000000}
+	 a:active {color: #FF00CC}
+     </style>
+   </head>
+   <body>
+	<p class="example1">
+      This example is showing all borders in different colors.
+      </p>
+      
+      <p class="example2">
+      This example is showing all borders in green color only.
+      </p>
+	<table class="one">
+         <caption>Collapse Border Example</caption>
+         <tr><td class="a"> My name is Arindam</td></tr>
+         <tr><td class="b"> I study in NITMAS</td></tr>
+      </table>
+      <br />
+      
+      <table class="two">
+         <caption>Separate Border Example</caption>
+         <tr><td class="a"> Dept. of CSE</td></tr>
+         <tr><td class="b"> 3<sup>rd</sup> year,,, it's good </td></tr>
+      </table>
+	 <a href="">click dis Link</a>
+      <img style="border:0px;height:50px" src="/css/images/abc.jpg" />
+      <br />
+      <img style="border:3px dashed red;height:50px;width:850px;" src="/css/images/abc.jpg" />
+   </body>
+</html> 
