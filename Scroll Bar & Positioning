@@ -1,0 +1,52 @@
+<html>
+   <head>
+	<center>
+	<h1> SCROLLBAR and POSITIONING </h1>
+	</center>
+   </head>
+   
+      <style type="text/css">
+         .scroll{
+            display:block;
+            border: 1px dotted black;
+            padding:5px;
+            margin-top:5px;
+            width:300px;
+            height:50px;
+            overflow:scroll;
+         }
+         .auto{
+            display:block;
+            border: 2px solid red;
+            padding:5px;
+            margin-top:5px;
+            width:300px;
+            height:50px;
+            overflow:auto;
+         }
+      </style>
+      
+   <body>
+   	<center>
+      <p>Example of scroll value:</p>
+	</center>
+	<div style="position:relative;left:500px;top:2px;">
+      <div class="scroll">
+      I am going to keep lot of content here just to show you how scrollbars works if there is an overflow in an 
+      element box. This provides your horizontal as well as vertical scrollbars.
+      	</div>
+	</div>
+      <br />
+      
+	<center>
+      <p>Example of auto value:</p>
+      	</center>
+	<div style="position:relative;left:500px;top:2px;">
+      <div class="auto">
+      I am going to keep lot of content here just to show you how scrollbars work if there is an overflow in an 
+      element box. This provides your horizontal as well as vertical scrollbars.
+      </div>
+	</div>
+      
+   </body>
+</html> 
