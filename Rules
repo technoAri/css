@@ -1,0 +1,13 @@
+<html>
+   <head>
+   
+      <style tyle="text/css">
+         p { color: #ff0000 !important; }
+         p { color: #000000; }
+      </style>
+      
+   </head>
+   <body>
+      <p>Tutorialspoint.com</>
+   </body>
+</html> 
